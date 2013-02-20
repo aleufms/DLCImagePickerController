@@ -560,7 +560,7 @@
     self.filtersBackgroundImageView.hidden = NO;
     [UIView animateWithDuration:0.10
                           delay:0.05
-                        options: UIViewAnimationCurveEaseOut
+                        options: UIViewAnimationOptionCurveEaseOut
                      animations:^{
                          self.imageView.frame = imageRect;
                          self.filterScrollView.frame = sliderScrollFrame;
@@ -583,7 +583,7 @@
     
     [UIView animateWithDuration:0.10
                           delay:0.05
-                        options: UIViewAnimationCurveEaseOut
+                        options: UIViewAnimationOptionCurveEaseOut
                      animations:^{
                          self.imageView.frame = imageRect;
                          self.filterScrollView.frame = sliderScrollFrame;
